@@ -1,14 +1,25 @@
-[
-  {
-    "relation": [
-      "delegate_permission/common.handle_all_urls"
-    ],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "com.miniepisode",
-      "sha256_cert_fingerprints": [
-        "4B:2E:92:52:61:DA:EA:CE:4C:D9:67:94:3B:35:EF:6D:AC:07:E5:08:82:AF:28:34:FE:4D:AA:46:24:9F:A1:8F"
-      ]
-    }
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.miniepisode",
+    "sha256_cert_fingerprints":
+    ["4B:2E:92:52:61:DA:EA:CE:4C:D9:67:94:3B:35:EF:6D:AC:07:E5:08:82:AF:28:34:FE:4D:AA:46:24:9F:A1:8F"]
   }
-]
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://qazxcs113.github.io"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.miniepisode",
+    "sha256_cert_fingerprints":
+    ["4B:2E:92:52:61:DA:EA:CE:4C:D9:67:94:3B:35:EF:6D:AC:07:E5:08:82:AF:28:34:FE:4D:AA:46:24:9F:A1:8F"]
+  }
+}]
